@@ -1,0 +1,26 @@
+{
+  "name": "puppeteer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js -f json:public/cucumber_report.json",
+    "generatereport": "node public/report.js",
+    "deploy": "gh-pages -d public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://decello.github.io/puppeteer",
+  "dependencies": {
+    "@cucumber/cucumber": "7.3.0",
+    "chai": "^4.2.0",
+    "express": "^4.18.2",
+    "prettier": "^2.1.1",
+    "puppeteer": "^5.2.1"
+  },
+  "devDependencies": {
+    "cucumber-html-reporter": "^5.4.0",
+    "gh-pages": "^4.0.0"
+  }
+}

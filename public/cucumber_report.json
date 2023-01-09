@@ -1,0 +1,92 @@
+[
+  {
+    "description": "    This feature file is created to test login page",
+    "elements": [
+      {
+        "description": "",
+        "id": "login;successful-login",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Successful Login",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1261000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I open login page",
+            "match": {
+              "location": "features/support/steps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2104000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I fill login form",
+            "match": {
+              "location": "features/support/steps.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 540000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on submit button",
+            "match": {
+              "location": "features/support/steps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I expect to see application content",
+            "match": {
+              "location": "features/support/steps.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 113000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login",
+    "tags": [],
+    "uri": "features/login.feature"
+  }
+]

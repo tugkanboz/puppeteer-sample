@@ -1,5 +1,18 @@
 # puppeteer-demo
 This project uses Puppeteer and Cucumber to write and run acceptance tests. It generates an HTML report of the test results, which is then deployed to GitHub Pages for easy sharing. 
+
+## Setup
+To run this project locally, follow these steps:
+
+## Clone the repository:
+```
+git clone https://github.com/tugkanboz/puppeteer-demo.git
+```
+
+## Install the dependencies:
+```
+npm install
+```
  
 ## Run tests
 "npm test" runs the "cucumber-js" command, which is a command-line interface for running Cucumber tests. The "-f json:public/cucumber_report.json" flag specifies that the results of the tests should be output in JSON format and saved to the "public/cucumber_report.json" file.

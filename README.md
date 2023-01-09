@@ -13,7 +13,9 @@ npm test
 npm run generatereport
 ```
 
+## Screenshots from report
+![detail](https://user-images.githubusercontent.com/17913643/211367098-bac75d48-18d1-4558-944a-d5d43120da81.png)
+![cucumber-report](https://user-images.githubusercontent.com/17913643/211367088-682504b3-ad8c-4612-acc6-3673710b28f2.png)
+
 ## Reports link
 [https://tugkanboz.github.io/puppeteer/public/cucumber_report.html]
-
-(https://user-images.githubusercontent.com/17913643/211367088-682504b3-ad8c-4612-acc6-3673710b28f2.png)
